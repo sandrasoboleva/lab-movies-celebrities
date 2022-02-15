@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{!-- <!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -18,4 +18,51 @@
     <script src="/javascripts/script.js"></script>
   </body>
 
+</html> --}}
+
+
+
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{title}}</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+  </head>
+  <nav>
+    <a href="/">HOME</a>
+   
+    <a href="/celebrities/create">CREATE CELEB</a>
+    
+    <a href="/celebrities/celebrities">ALL CELEBS</a>
+    
+    <a href="/movies/create">Create Movie</a>
+
+    <a href="/movies/movies">All Movies</a>
+    
+
+  </nav>
+  <body>
+    <div class="container">
+      {{{body}}}
+    </div>
+
+    <script src="/javascripts/script.js"></script>
+  </body>
+
 </html>
+
+<style>
+  nav{
+    text-align: center;
+    font-size: 24px;
+  }
+</style>
